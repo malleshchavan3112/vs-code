@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.nav-ul1{
+    height: 18px;
+    background-color: black;
+    display: inline-block;
+    margin-top: -7px;
+    
+}
+.nav-ul1 li{
+    display: inline-block;
+    background-color: rgb(241, 240, 240);
+    width: 45px;
+    text-align: center;
+    margin-left: -3.4px;
+}
+#nav-li{
+    text-align: left;
+    width: 250px;
+    display: inline-block;
+    
+}
+#nav-a4{
+    margin-left: 3px;
+}
+.nav-sec{
+    display: inline-block;
+    background-color: rgb(241, 240, 240);
+    
+}
+.nav-sec2{
+    display: inline-block;
+}
+
+.nav-ul1 li a{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+}
+.nav-ul2{
+    display: inline-block;
+    margin-top: -24px;
+    margin-left: 210px;
+}
+.nav-ul3{
+    display: none;
+}
+
+.nav-img1{
+    display: inline-block;
+    margin-bottom: 14px;
+    height: 18px;
+    width: 120px;
+    
+}
+.nav-logo1{
+    display: inline-block;
+    margin-left: -90px;
+    margin-top: -30px;
+    position: relative;
+
+
+}
+.nav-img2{
+    margin-bottom: 13.5px;
+    height: 19px;
+    width: 96.1px;
+    margin-left: 81.5px;
+}
+.fa-envelope{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: -17px;
+    
+}
+.fa-phone{
+    position: absolute;
+    top: 1.5px;
+    left: 335px;
+    font-size: 13px;
+    color: white;
+}
+.nav-p1{
+    position: absolute;
+    top: 2px;
+    left: 245px;
+    font-size: 10px;
+    height: 18px;
+    color: white;
+    
+
+}
+.nav-p2{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top: 2px;
+    left: 355px;
+}
+
+.nav-s3{
+    background-color: white;
+}
+.nav-div{
+    width: 34px;
+    height: 34px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.fa-bars{
+    display: inline-block;
+    color: black;
+    font-size: 27px;
+    margin-left: 10px;
+    margin: 3px 3px 3px 3px;
+}
+.fa-face-smile{
+    font-size: 30px;
+    color: #F3525A;
+    text-align: center;
+    margin-left: 75px;
+    display: inline-block;
+
+}
+.h1-nav{
+    color: #F3525A;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.s4{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(carousel-2.jpg);
+    background-color: black;
+    height: 250px;
+    width: 425px;
+    background-position: bottom;
+    background-size: cover;
+    opacity: 90%;
+    text-align: center;
+    color: white;
+
+}
+.s4-p{
+    padding-top: 80px;
+    font-size: 10px;
+    font-weight: 700;
+}
+.fa-chevron-left{
+    padding-right: 310px;
+    font-size: 16px;
+    color: gray;
+}
+.fa-chevron-right{
+    font-size: 16px;
+    margin-top: -100px;
+    color: gray;
+
+}
+.s4-h2{
+    width: 290px;
+    margin-left: 70px;
+
+}
+.s4-a1{
+    background-color: #F3525A;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    font-weight: 800;
+    border-radius: 18px;
+    font-size: 13px;
+
+
+}
+/* .s4-a2{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-weight: 700;
+    border-radius: 50px;
+} */
+
+
+
+@media screen and (min-width:768px) {
+    .nav-ul2{
+        margin-left: 550px;
+    }
+    .nav-p1{
+        left: 586px;
+    }
+    .nav-p2{
+        left: 695px;
+    }
+    .fa-envelope{
+        left: -15px;
+    }
+    .fa-phone{
+        left: 678px;
+    }
+    #nav-li{
+        width: 630px;
+    }
+
+    .nav-div{
+        width: 36px;
+        height: 37px
+    }
+    .fa-bars{
+        color: black;
+        font-size: 30px;
+    }
+    .fa-face-smile{
+        margin-left: 250px;
+    
+    }
+    
+
+    
+
+}
+
+
+@media screen and (min-width:1024px) {
+    .nav-ul2{
+        margin-left: 805px;
+    }
+    .nav-p1{
+        left: 842px;
+    }
+    .nav-p2{
+        left: 950px;
+    }
+    .fa-envelope{
+        left: -15px;
+    }
+    .fa-phone{
+        left: 935px;
+    }
+    #nav-li{
+        width: 890px;
+    }
+    .nav-div{
+        display: none;
+    }
+    .fa-bars{
+        display: none;
+    }
+    .fa-face-smile{
+        margin-left: 40px;
+    
+    }
+    /* .h1-nav{
+        color: #F3525A;
+
+    } */
+    .nav-ul3{
+        display: inline-block;
+    }
+    .nav-ul3 li{
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .nav-ul3 li a{
+        color: black;
+        font-size: 13PX;
+        font-weight: 600;
+        
+    }
+    #home{
+        margin-left: 470px;
+        
+    }
+    #home-a{
+        color: #F3525A;
+
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .nav-ul1{
+        height: 25px;
+    }
+    .nav-sec{
+        width: 100%;
+    }
+    .nav-ul1 li{
+        width: 80px;
+        height: 25px;
+        margin-left: -3.3px;
+    }
+    #nav-li{
+        margin-left: -3px;
+        width: 1100px;
+    }
+    .nav-ul1 li a{
+        font-size: 14px;
+    }
+    #nav-a4{
+        margin-left: 10px;
+    }
+
+    .nav-ul2{
+        margin-left: 1090.5px;
+        margin-top: -31px;
+    }
+    .nav-img1{
+        height: 25px;
+        width: 180px;
+    }
+
+    .nav-img2{
+        height: 26px;
+        width: 170px;
+        
+
+    }
+
+    .nav-p1{
+        left: 1150px;
+        font-size: 15px;
+        top: 3px;
+    }
+    .nav-p2{
+        left: 1310px;
+        font-size: 15px;
+        top: 3px;
+    }
+    .fa-envelope{
+        left: -60px;
+        font-size: 20px;
+        top: -36px;
+    }
+    .fa-phone{
+        left: 1290px;
+        font-size: 17px;
+        top: 3px;
+    }
+    #nav-li{
+        width: 890px;
+    }
+
+    .fa-face-smile{
+        font-size: 35PX;
+        margin-left: 40px;
+    
+    }
+    .h1-nav{
+        font-size: 35PX;
+
+    }
+    .nav-ul3 li{
+        margin-left: 15px;
+    }
+    .nav-ul3 li a{
+        color: black;
+        font-size: 16PX;
+        font-weight: 600;
+        
+    }
+    #home{
+        margin-left: 790px;
+        
+    }
+    #home-a{
+        color: #F3525A;
+
+    }
+
+}

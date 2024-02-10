@@ -1,0 +1,705 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
+/* nav start here  */
+/* nav-sec start here */
+.nav-ul1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 18px;
+    justify-content: flex-start;
+
+
+
+}
+.nav-sec{
+    height: 18px;
+    background-color: rgb(241, 240, 240);
+
+}
+#nav-li{
+    text-align: left;
+    width: 50px;
+    border: none;
+    
+}
+#nav-a4{
+    margin-left: 10px;
+}
+.nav-ul1 li{
+    border-right: 1px solid black;
+    background-color: rgb(241, 240, 240);
+    width: 45px;
+    text-align: center;
+}
+
+.nav-ul1 li a{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+}
+.nav-logo1{
+    display: flex;
+    background-image: url(nav-1.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 18px;
+    width: 140px;
+    border-right: 1px solid rgb(241, 240, 240);
+    
+}
+
+.nav-logo2{
+    display: flex;
+    background-image: url(nav-2.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 100px;
+}
+.fa-envelope{
+    margin-left: 15px;
+    font-size: 14px;
+    color: white;
+    
+}
+.fa-phone{
+    font-size: 13px;
+    color: white;
+}
+.nav-p1{
+    font-size: 10px;
+    
+    color: white;
+}
+
+.nav-p2{
+    color: white;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+/* nav-sec end here */
+/* nav-s3 start here */
+
+.nav-s3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+   
+}
+.s3-1{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.fa-bars{
+    color: black;
+    font-size: 27px;
+    margin-left: 10px
+    
+}
+.fa-face-smile{
+    color: #F3525A;
+    font-size: 30px;
+    margin-left: 80px;
+
+
+
+}
+.h1-nav{
+    color: #F3525A;
+    font-size: 30px;
+    margin-left: 10px;
+
+
+}
+
+.nav2-sec2{
+    display: flex;
+    justify-content: space-around;
+    width: 40rem; 
+    height: 20px;
+}
+.nav4-sec{
+    display: flex;
+}
+.nav4-sec a{
+    color: black;
+    font-size: 12px;
+}
+.nav4-sec{
+    display: none;
+}
+/* nav-s3end here */
+/* main-s1 start here */
+
+.main-sec{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(carousel-2.jpg);
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    opacity: 90%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+
+.main-sec p{
+    padding-top: 80px;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.fa-chevron-left{
+    padding-right: 310px;
+    font-size: 16px;
+    color: gray;
+}
+.fa-chevron-right{
+    font-size: 16px;
+    margin-top: -100px;
+    color: gray;
+
+}
+.main-sec h2{
+    width: 290px;
+    margin-left: 70px;
+}
+.button_1{
+    background-color: #F3525A;
+    border-radius: 20px;
+    padding:15px ;
+    width: 90px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    
+}
+.button_2{
+    
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    padding:15px ;
+    width: 91px;
+    color:black;
+    border: none;
+    font-size: 12px;
+
+    
+}
+/* main-sec end here */
+/* main-s2 start here */
+.main-s2{
+    display: flex;
+
+}
+
+.left{
+    background-color: rgb(241, 240, 240);
+    width: 50%;
+    padding: 10px;
+    
+}
+.left-h3{
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.left h3 span{
+    color: #F3525A;
+}
+#red{
+    color: #F3525A;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#grey{
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.left button{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color:  #F3525A;
+    width: 90px;
+    font-size: 12px;
+}
+
+.right{
+    background-color:  #F3525A;
+    padding: 10px;
+    width: 50%;
+}
+.right div{
+    padding-top: 10px;
+}
+
+
+.right .fa-solid {
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #F3525A;
+    
+
+}
+.logo{
+    align-self: center;
+}
+.right-h4{
+    font-size: 16px;
+    padding-left: 50px;
+    margin-top: -30px;
+    
+}
+.right-p{
+    font-size: 13px;
+    width: 200px;
+    padding-left: 50px;
+    color: white;
+    padding-bottom: 15px;
+}
+/* main-s2 end here */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 190px);
+    gap: 16px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+.third h3{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+hr{
+    width: 10%;
+    margin-left: 45%;
+    color: #F3525A;
+}
+
+.back{
+    padding: 15px;
+    background-color: rgb(241, 240, 240);
+    
+}
+.grid p{
+    font-size: 13px;
+    text-align: center;
+    color: black;
+}
+.grid .fa-solid {
+    background-color: #F3525A;
+    font-size: 18px;
+    color:white;
+    border-radius: 50%;
+    padding: 15px;
+}
+h5{
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+    /* nav sec start here */
+    #nav-li{
+        width: 393px;
+    }
+    /* nav sec end here */
+    /* nav-s3 start here  */
+    .fa-bars{
+        color: black;
+        font-size: 30px;
+    }
+    .fa-face-smile{
+        margin-left: 250px;
+    
+    }
+    /* nav-s3 end here */
+/* main-sec start here */
+
+
+    .main-sec p{
+        padding-top: 130px;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+    .fa-chevron-left{
+        padding-right: 710px;
+        font-size: 17px;
+        color: gray;
+    }
+    .fa-chevron-right{
+        font-size: 17px;
+        margin-top: -100px;
+        color: gray;
+    
+    }
+    .main-sec{
+        width: 100%;
+        height: 420px;
+    }
+    .main-sec h2{
+        width: 290px;
+        margin-left: 230px;
+    }
+    .button_1, .button_2{
+        font-size: 13px;
+        width: 95px;
+    }
+/* main-sec end here */
+
+/* main-s2 start here */
+   .left h3{
+    font-size: 19px;
+   } 
+   #red, #grey{
+    font-size: 15px;
+    padding-bottom: 10px;
+
+   }
+   .left{
+    padding: 15px;
+   }
+   .left button{
+    width: 130px;
+    font-size: 13px;
+
+   }
+   .right .fa-solid{
+    font-size: 21px;
+
+   }
+   .right-p{
+    font-size: 13px;
+    width: 350px;
+    
+   }
+   .right-h4{
+    font-size: 18px;
+   }
+   /* grid start here */
+
+   .grid{
+    grid-template-columns: repeat(2, 290px);
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:1024px) {
+    /* nav-sec start here */
+    #nav-li{
+        width: 649px;
+    }
+    /* nav-sec end here  */
+    /* nav-s3 end here */
+    .fa-bars{
+        display: none;
+    }
+    .fa-face-smile{
+        margin-left: 40px;
+    
+    }
+    .nav4-sec{
+        display: inline;
+        display: flex;
+    }
+    .nav4-sec li a{
+        color: black;
+        font-size: 13PX;
+        font-weight: 600;
+    }
+    .nav4-sec li{
+        margin-left: 15px;
+    }
+    
+    #home-a{
+        color: #F3525A;
+
+    }
+    #contact{
+        padding-right: 30px
+    }
+    /* nav-s3 end here */
+
+/* main-sec start here */
+
+
+    .main-sec p{
+        padding-top: 190px;
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .fa-chevron-left{
+        padding-right: 910px;
+        font-size: 16px;
+        color: gray;
+    }
+    .fa-chevron-right{
+        font-size: 16px;
+        margin-top: -100px;
+        color: gray;
+    
+    }
+    .main-sec{
+        width: 100%;
+        height: 600px;
+    }
+    .main-sec h2{
+        width: 290px;
+        margin-left: 370px;
+    }
+    .button_1{
+        background-color: #F3525A;
+        border-radius: 20px;
+        padding:15px ;
+        width: 95px;
+        color: white;
+        border: none;
+        font-size: 13px;
+        
+    }
+    .button_2{
+        background-color: white;
+        border-radius: 20px;
+        padding:15px ;
+        width: 95px;
+        color:black;
+        border: none;
+        font-size: 13px;
+    
+        
+    }
+
+/* main-sec end here */
+
+/* main-s2 start here */
+
+.left h3{
+    font-size: 24px;
+   } 
+   #red, #grey{
+    font-size: 17px;
+
+   }
+   
+   .left button{
+    width: 150px;
+    font-size: 15px;
+
+   }
+   .right .fa-solid{
+    font-size: 23px;
+
+   }
+   .right-p{
+    font-size: 14px;
+    width: 450px;
+   }
+   .right-h4{
+    font-size: 20px;
+   }
+/*  grid start here */
+.grid{
+    grid-template-columns: repeat(3, 290px);
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 65px;
+}
+
+}
+
+@media screen and (min-width:1440px) {
+    /* nav-sec start here  */
+    #nav-li{
+        width: 649px;
+    }
+    .nav-sec{
+        height: 25px;
+    
+    }
+    .nav-ul1 li{
+        width: 65px;
+        text-align: center;
+        height: 25px;
+
+    }
+    .nav-ul1 li a{
+        font-size: 14px;
+    }
+    #nav-li{
+        width: 875px;
+    }
+    .nav-logo1{
+        height: 25px;
+        width: 200px;
+
+
+    }
+    .nav-logo2{
+        height: 25px;
+        width: 170px;
+
+
+    }
+    .fa-envelope{
+        font-size: 18px;
+    }
+    .fa-phone{
+        font-size: 18px;
+
+    }
+    .nav-p1, .nav-p2{
+        font-size: 14px;
+    }
+    
+    /* nav-sec end here  */
+    .nav4-sec li a{
+        font-size: 19PX;
+        font-weight: 500;
+    }
+    /* nav-s3 end here */
+/* main-sec start here */
+
+    .main-sec p{
+        padding-top: 240px;
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    .fa-chevron-left{
+        padding-right: 1300px;
+        font-size: 25px;
+    }
+    .fa-chevron-right{
+        font-size: 25px;
+    
+    }
+    .main-sec{
+        width: 100%;
+        height: 820px;
+    }
+    .main-sec h2{
+        width: 290px;
+        font-size: 29px;
+        margin-left: 570px;
+    }
+    .button_1, .button_2{
+        font-size: 15px;
+        width: 110px;
+        height: 50px;
+    }
+
+/* main-sec end here */
+
+/* main-s2 start here */
+
+.left h3{
+    font-size: 25px;
+   } 
+   #red, #grey{
+    font-size: 19px;
+
+   }
+   
+   .left button{
+    width: 160px;
+    font-size: 17px;
+
+   }
+   .right .fa-solid{
+    font-size: 25px;
+
+   }
+   .right-p{
+    font-size: 15px;
+    width: 650px;
+    margin-left: 40px;
+
+   }
+   .right-h4{
+    font-size: 22px;
+    margin-left: 40px;
+   }
+   .right .div3{
+    padding-bottom: 30px;
+   }
+   .logo{
+    padding-left: 20px;
+   }
+
+   .grid{
+    grid-template-columns: repeat(3, 350px);
+    gap: 40px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 85px;
+}
+.third h3{
+    font-size: 26px;
+    padding: 20px;
+}
+hr{
+    width: 10%;
+}
+    
+}
