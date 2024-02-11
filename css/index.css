@@ -308,7 +308,7 @@ li{
     margin-left: 15px;
 }
 
-.third h3{
+.third-h3{
     text-align: center;
     font-size: 18px;
     padding-top: 20px;
@@ -328,18 +328,142 @@ hr{
     font-size: 13px;
     text-align: center;
     color: black;
+    padding-bottom: 10px;
 }
 .grid .fa-solid {
     background-color: #F3525A;
     font-size: 18px;
     color:white;
     border-radius: 50%;
+    margin-top: 30px;
     padding: 15px;
 }
-h5{
+.third-h5{
     font-size: 15px;
     padding: 10px;
 }
+
+/* forth star here */
+
+.fourth {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .fourth .fa-cubes,
+  .fa-percent, .fa-award, #smile, .fa-user-tie, .fa-headset {
+    background-color: #F3525A;
+    color: white;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .flex{
+    display: flex;
+    width: 424px;
+    padding-top: 20px;
+  }
+  .f-left,
+  .f-right {
+    padding: 7px;
+    text-align: left;
+    margin: 10px;
+    width: 150px;
+  }
+  .fourth .grey {
+    font-size: 12px;
+    color: gray;
+  }
+  .f-middle {
+    background-color: #F3525A;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 500px;
+  }
+  .forth-img{
+    width: 200px;
+    height: 150px;
+  }
+  .fourth h5 {
+    font-size: 11px;
+  }
+  
+  .f-middle p {
+    font-size: 11px;
+    padding: 20px;
+  }
+  .f-middle button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    font-size: 10px;
+    margin: 30px;
+    background-color: white;
+  }
+  #f-para {
+    font-size: 13px;
+  }
+  /* setion 5start here */
+  .section-5 {
+    padding-top: 30px;
+    /* display: flex; */
+  }
+  .section-5left {
+    padding: 20px;
+    background-color: rgb(241, 240, 240);
+    width: 100%;
+    height: 300px;
+  }
+  .section-5 h3 {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .section-5left p {
+    color: gray;
+    padding-bottom: 12px;
+    font-size: 14px;
+  }
+  .section-5right {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .section-5right img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 100%;
+  }
+  .section-5form2{
+    display: flex;
+  }
+  
+  #name,
+  #email {
+    margin: 5px;
+    width: 170px;
+  }
+
+  #select,
+#submit {
+  padding: 5px;
+  margin: 5px;
+  width: 170px;
+}
+
+#submit {
+    background-color: #F3525A;
+    margin-left: 8px;
+    width: 170px;
+    /* padding: 20px; */
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+  
 
 
 
@@ -433,7 +557,50 @@ h5{
     margin-left: 85px;
 }
 
+/* forth start here */
 
+.fourth .fa-cubes,
+  .fa-percent, .fa-award, #smile, .fa-user-tie, .fa-headset{
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  #f-para {
+    font-size: 15px;
+  }
+
+  .flex{
+    width: 768px;
+  }
+  .f-left,
+  .f-right {
+    padding: 20px;
+    margin: 10px;
+    width: 230px;
+  }
+
+  .fourth .grey {
+    font-size: 12px;
+  }
+  .f-middle {
+    width: 300px;
+    height: 450px;
+  }
+  .forth-img{
+    width: 300px;
+    height: 190px;
+  }
+  .fourth h5 {
+    font-size: 15px;
+  }
+  
+  .f-middle p {
+    font-size: 11px;
+    padding: 20px;
+  }
+  .f-middle button {
+    font-size: 11px;
+    font-weight: 700;
+  }
 
 
 
@@ -566,6 +733,60 @@ h5{
     padding-top: 20px;
     margin-left: 65px;
 }
+/* forth start here */
+
+.fourth .fa-cubes,
+  .fa-percent, .fa-award, #smile, .fa-user-tie, .fa-headset{
+    font-size: 22px;
+    margin-left: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+  }
+  #f-para {
+    font-size: 17px;
+  }
+
+  .flex{
+    width: 1024px;
+    /* margin-left: 50px; */
+  }
+
+  .f-left,
+  .f-right {
+    padding: 20px;
+    width: 270px;
+    margin: 0px;
+  }
+  .f-left{
+    margin-left: 50px;
+  }
+
+  .fourth .grey {
+    font-size: 14px;
+  }
+  .f-middle {
+    width: 290px;
+    height: 550px;
+    margin-left: 58px;
+  }
+  .forth-img{
+    width: 290px;
+    height: 200px;
+    
+  }
+  .fourth h5 {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  
+  .f-middle p {
+    font-size: 12px;
+  }
+  .f-middle button {
+    font-size: 13px;
+    font-weight: 700;
+  }
 
 }
 
@@ -688,18 +909,85 @@ h5{
    }
 
    .grid{
-    grid-template-columns: repeat(3, 350px);
-    gap: 40px;
+    grid-template-columns: repeat(3, 400px);
+    gap: 35px;
     text-align: center;
     padding-top: 20px;
     margin-left: 85px;
 }
-.third h3{
-    font-size: 26px;
+.third-h3{
+    font-size: 36px;
     padding: 20px;
 }
 hr{
     width: 10%;
+    
 }
+.grid p{
+    padding-bottom: 30px;
+    padding-left: 35px;
+    font-size: 14px;
+    width: 330px;
+}
+.grid .fa-solid{
+    padding-top: 20px;
+    font-size: 19px;
+}
+.third-h5{
+    font-size: 19px;
+    padding: 10px;
+}
+/* forth start here */
+.fourth .fa-cubes,
+  .fa-percent, .fa-award, #smile, .fa-user-tie, .fa-headset{
+    font-size: 22px;
+    margin-left: 0px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+  }
+  #f-para {
+    font-size: 17px;
+  }
+
+  .flex{
+    width: 1440px;
+    margin-left: 50px;
+  }
+  .f-left,
+  .f-right {
+    padding: 35px;
+    width: 400px;
+    margin: 0px;
+  }
+
+  .fourth .grey {
+    font-size: 14px;
+  }
+  .f-middle {
+    width: 400px;
+    height: 550px;
+    margin-left: 73px;
+  }
+  .forth-img{
+    width: 400px;
+    height: 270px;
+    
+  }
+  .fourth h5 {
+    margin-bottom: 10px;
+    font-size: 17px;
+  }
+  
+  .f-middle p {
+    font-size: 12px;
+  }
+  .f-middle button {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+}
+
     
 }
