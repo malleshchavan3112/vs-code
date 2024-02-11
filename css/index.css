@@ -435,7 +435,7 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
     height: 340px;
-    width: 100%;
+    width: 425px;
   }
   .section-5form2{
     display: flex;
@@ -466,7 +466,7 @@ hr{
   
 
 
-
+    
 
 
 @media screen and (min-width:768px) {
@@ -853,6 +853,13 @@ hr{
     padding: 10px;
   }
 
+  .section-5right {
+    width: 50%;
+  }
+  .section-5left {
+    width: 50%;
+  }
+
   
 
 }
@@ -1019,13 +1026,15 @@ hr{
 
   .flex{
     width: 1440px;
-    margin-left: 50px;
   }
   .f-left,
   .f-right {
     padding: 35px;
     width: 400px;
     margin: 0px;
+    margin-left: 50px;
+
+
   }
 
   .fourth .grey {
@@ -1054,7 +1063,38 @@ hr{
     font-weight: 700;
   }
 
+  /* section 3 start here  */
+  .section-5 h3 {
+    font-size: 24px;
+  }
+  #name,
+  #email {
+    margin: 7px;
+    padding: 10px;
+    width: 250px;
+  }
+
+  #select,
+#submit {
+  padding: 10px;
+  margin: 7px;
+  width: 250px;
 }
 
-    
-}
+#submit {
+    width: 250px;
+    padding: 10px;
+  }
+
+  .section-5right {
+    width: 50%;
+  }
+  .section-5left {
+    width: 50%;
+  }
+  .section-5right img {
+    width: 720px;
+  }
+
+}    
+
