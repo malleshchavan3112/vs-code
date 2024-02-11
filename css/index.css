@@ -601,6 +601,49 @@ hr{
     font-size: 11px;
     font-weight: 700;
   }
+/* section 5 start here */
+  .section-5 h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .section-5 {
+    /* padding-top: 30px; */
+    display: flex;
+  }
+
+  #name,
+  #email {
+    margin: 7px;
+    padding: 8px;
+    width: 150px;
+  }
+
+  #select,
+#submit {
+  padding: 8px;
+  margin: 7px;
+  width: 150px;
+}
+
+#submit {
+    margin-left: 8px;
+    width: 150px;
+    padding: 8px;
+  }
+  .section-5right {
+    height: 400px;
+    width: 50%;
+  }
+  .section-5left {
+    padding: 20px;
+    width: 50%;
+    height: 340px;
+  }
+  .section-5left p{
+    padding-bottom: 30px;
+  }
+
 
 
 
@@ -787,6 +830,30 @@ hr{
     font-size: 13px;
     font-weight: 700;
   }
+  /* section 5 start here */
+  .section-5 h3 {
+    font-size: 22px;
+  }
+  #name,
+  #email {
+    margin: 7px;
+    padding: 10px;
+    width: 200px;
+  }
+
+  #select,
+#submit {
+  padding: 10px;
+  margin: 7px;
+  width: 200px;
+}
+
+#submit {
+    width: 200px;
+    padding: 10px;
+  }
+
+  
 
 }
 
