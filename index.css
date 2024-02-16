@@ -654,10 +654,6 @@ seven {
  }
 
  @media screen and (max-width: 426px) {
-    .nav-s1 {
-      /* display: none; */
-    }
-
     .fa-envelope-open{
         margin-left: 20px;
         padding: 0px;
@@ -672,7 +668,7 @@ seven {
     .rect {
         color: white;
         background-color: var(--red);
-        width: 125px;
+        width: 110px;
         padding-left: 10px;
         height: 15px;
 
@@ -785,9 +781,9 @@ seven {
       }
       .f-left,
       .f-right {
-        padding: 8px;
+        padding: 5px;
         text-align: left;
-        margin: 7px;
+        margin: 5px;
       }
       .fourth h5 {
         font-size: 0.8rem;
