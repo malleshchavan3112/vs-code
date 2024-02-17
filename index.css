@@ -57,6 +57,9 @@ a {
     font-size: 12px;
 
   }
+  .fa-bars{
+    display: none;
+  }
   .poly {
     clip-path: polygon(25% 0%, 100% 0, 100% 100%, 20% 100%, 0 0);
     width: 250px;
@@ -576,6 +579,9 @@ seven {
         font-size: 13px;
         
       }
+      .fa-bars{
+        display: none;
+      }
     .hero {
       width: 100%;
       background-size: cover;
@@ -668,12 +674,18 @@ seven {
     .rect {
         color: white;
         background-color: var(--red);
-        width: 110px;
+        width: 90px;
         padding-left: 10px;
         height: 15px;
 
         font-size: 10px;
 
+    }
+    .fa-bars{
+      display: block;
+      color: black;
+      font-size: 30px;
+      padding: 10px;
     }
     .nav-s1 a {
         border-right: 1px solid black;
